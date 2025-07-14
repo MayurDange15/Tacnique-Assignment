@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice@example.com",
+    "department": "HR",
+    "role": "Manager"
+  },
+  {
+    "id": 2,
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob@example.com",
+    "department": "IT",
+    "role": "Developer"
+  },
+  {
+    "id": 3,
+    "firstName": "Charlie",
+    "lastName": "Lee",
+    "email": "charlie@example.com",
+    "department": "Finance",
+    "role": "Analyst"
+  },
+  {
+    "id": 4,
+    "firstName": "David",
+    "lastName": "Green",
+    "email": "david@example.com",
+    "department": "IT",
+    "role": "System Administrator"
+  },
+  {
+    "id": 5,
+    "firstName": "Eve",
+    "lastName": "Brown",
+    "email": "eve@example.com",
+    "department": "HR",
+    "role": "Recruiter"
+  },
+  {
+    "id": 6,
+    "firstName": "Frank",
+    "lastName": "Black",
+    "email": "frank@example.com",
+    "department": "Finance",
+    "role": "Accountant"
+  },
+  {
+    "id": 7,
+    "firstName": "Grace",
+    "lastName": "White",
+    "email": "grace@example.com",
+    "department": "IT",
+    "role": "Project Manager"
+  },
+  {
+    "id": 8,
+    "firstName": "Henry",
+    "lastName": "Clark",
+    "email": "henry@example.com",
+    "department": "HR",
+    "role": "HR Assistant"
+  },
+  {
+    "id": 9,
+    "firstName": "Ivy",
+    "lastName": "Davis",
+    "email": "ivy@example.com",
+    "department": "Finance",
+    "role": "Financial Advisor"
+  },
+  {
+    "id": 10,
+    "firstName": "Jack",
+    "lastName": "Miller",
+    "email": "jack@example.com",
+    "department": "IT",
+    "role": "Network Engineer"
+  },
+  {
+    "id": 11,
+    "firstName": "Karen",
+    "lastName": "Wilson",
+    "email": "karen@example.com",
+    "department": "HR",
+    "role": "HR Manager"
+  },
+  {
+    "id": 12,
+    "firstName": "Liam",
+    "lastName": "Moore",
+    "email": "liam@example.com",
+    "department": "IT",
+    "role": "Software Engineer"
+  },
+  {
+    "id": 13,
+    "firstName": "Mia",
+    "lastName": "Taylor",
+    "email": "mia@example.com",
+    "department": "Finance",
+    "role": "Auditor"
+  },
+  {
+    "id": 14,
+    "firstName": "Noah",
+    "lastName": "Anderson",
+    "email": "noah@example.com",
+    "department": "IT",
+    "role": "DevOps Engineer"
+  },
+  {
+    "id": 15,
+    "firstName": "Olivia",
+    "lastName": "Thomas",
+    "email": "olivia@example.com",
+    "department": "HR",
+    "role": "Training Specialist"
+  },
+  {
+    "id": 16,
+    "firstName": "Peter",
+    "lastName": "Jackson",
+    "email": "peter@example.com",
+    "department": "Finance",
+    "role": "Tax Consultant"
+  },
+  {
+    "id": 17,
+    "firstName": "Quinn",
+    "lastName": "White",
+    "email": "quinn@example.com",
+    "department": "IT",
+    "role": "UI/UX Designer"
+  },
+  {
+    "id": 18,
+    "firstName": "Rachel",
+    "lastName": "Harris",
+    "email": "rachel@example.com",
+    "department": "HR",
+    "role": "Benefits Coordinator"
+  },
+
+  {
+    "id": 19,
+    "firstName": "Sam",
+    "lastName": "Martin",
+    "email": "sam@example.com",
+    "department": "Finance",
+    "role": "Financial Analyst"
+  },
+  {
+    "id": 20,
+    "firstName": "Tina",
+    "lastName": "Garcia",
+    "email": "tina@example.com",
+    "department": "IT",
+    "role": "Cybersecurity Analyst"
+  },
+  {
+    "id": 21,
+    "firstName": "Uma",
+    "lastName": "Rodriguez",
+    "email": "uma@example.com",
+    "department": "HR",
+    "role": "Recruitment Coordinator"
+  },
+  {
+    "id": 22,
+    "firstName": "Victor",
+    "lastName": "Martinez",
+    "email": "victor@example.com",
+    "department": "Finance",
+    "role": "Investment Banker"
+  },
+  {
+    "id": 23,
+    "firstName": "Wendy",
+    "lastName": "Hernandez",
+    "email": "wendy@example.com",
+    "department": "IT",
+    "role": "Data Scientist"
+  },
+  {
+    "id": 24,
+    "firstName": "Xavier",
+    "lastName": "Lopez",
+    "email": "xavier@example.com",
+    "department": "HR",
+    "role": "Employee Relations Specialist"
+  },
+  {
+    "id": 25,
+    "firstName": "Yara",
+    "lastName": "Gonzalez",
+    "email": "yara@example.com",
+    "department": "Finance",
+    "role": "Payroll Specialist"
+  },
+  {
+    "id": 26,
+    "firstName": "Zane",
+    "lastName": "Perez",
+    "email": "zane@example.com",
+    "department": "IT",
+    "role": "Cloud Engineer"
+  },
+  {
+    "id": 27,
+    "firstName": "Ava",
+    "lastName": "Sanchez",
+    "email": "ava@example.com",
+    "department": "HR",
+    "role": "HR Generalist"
+  },
+  {
+    "id": 28,
+    "firstName": "Ben",
+    "lastName": "Ramirez",
+    "email": "ben@example.com",
+    "department": "Finance",
+    "role": "Bookkeeper"
+  },
+  {
+    "id": 29,
+    "firstName": "Chloe",
+    "lastName": "Flores",
+    "email": "chloe@example.com",
+    "department": "IT",
+    "role": "IT Support Specialist"
+  },
+  {
+    "id": 30,
+    "firstName": "Daniel",
+    "lastName": "Rivera",
+    "email": "daniel@example.com",
+    "department": "HR",
+    "role": "Talent Acquisition Specialist"
+  },
+  {
+    "id": 31,
+    "firstName": "Ella",
+    "lastName": "Gomez",
+    "email": "ella@example.com",
+    "department": "Finance",
+    "role": "Treasury Analyst"
+  },
+  {
+    "id": 32,
+    "firstName": "Frankie",
+    "lastName": "Diaz",
+    "email": "frankie@example.com",
+    "department": "IT",
+    "role": "Developer"
+  },
+  {
+    "id": 33,
+    "firstName": "Gina",
+    "lastName": "Reyes",
+    "email": "gina@example.com",
+    "department": "Finance",
+    "role": "Analyst"
+  },
+  {
+    "id": 34,
+    "firstName": "Harry",
+    "lastName": "Cruz",
+    "email": "harry@example.com",
+    "department": "IT",
+    "role": "System Administrator"
+  },
+  {
+    "id": 35,
+    "firstName": "Isabel",
+    "lastName": "Morales",
+    "email": "isabel@example.com",
+    "department": "HR",
+    "role": "Recruiter"
+  },
+  {
+    "id": 36,
+    "firstName": "Julian",
+    "lastName": "Ortiz",
+    "email": "julian@example.com",
+    "department": "Finance",
+    "role": "Accountant"
+  },
+  {
+    "id": 37,
+    "firstName": "Kelly",
+    "lastName": "Alvarez",
+    "email": "kelly@example.com",
+    "department": "IT",
+    "role": "Project Manager"
+  },
+  {
+    "id": 38,
+    "firstName": "Leo",
+    "lastName": "Castillo",
+    "email": "leo@example.com",
+    "department": "HR",
+    "role": "HR Assistant"
+  },
+  {
+    "id": 39,
+    "firstName": "Monica",
+    "lastName": "Jimenez",
+    "email": "monica@example.com",
+    "department": "Finance",
+    "role": "Financial Advisor"
+  },
+  {
+    "id": 40,
+    "firstName": "Nathan",
+    "lastName": "Ruiz",
+    "email": "nathan@example.com",
+    "department": "IT",
+    "role": "Network Engineer"
+  }
+]

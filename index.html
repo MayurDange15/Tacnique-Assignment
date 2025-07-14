@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Employee Directory</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by name or email..."
+        />
+      </div>
+      <button id="openSidebarBtn">Filter</button>
+    </header>
+
+    <main class="main-content">
+      <div class="action-bar">
+        <div>
+          <label for="sortSelect">Sort:</label>
+          <select id="sortSelect">
+            <option value="">--Select--</option>
+            <option value="firstName">First Name</option>
+            <option value="department">Department</option>
+          </select>
+          <label for="showSelect">Show:</label>
+          <select id="showSelect">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+        <div>
+          <button id="addEmployeeBtn">Add Employee</button>
+          <!-- <button id="filterToggleBtn">Filter</button> -->
+        </div>
+      </div>
+
+      <!-- Offcanvas Sidebar -->
+      <aside id="filterSidebar" class="offcanvas-sidebar">
+        <div class="offcanvas-header">
+          <h3>Filter Employees</h3>
+          <button id="closeSidebarBtn">&times;</button>
+        </div>
+
+        <form id="filterForm">
+          <div>
+            <label for="filterFirstName">First Name:</label>
+            <input type="text" id="filterFirstName" />
+          </div>
+          <div>
+            <label for="filterDepartment">Department:</label>
+            <select id="filterDepartment">
+              <option value="">All Departments</option>
+              <option value="HR">HR</option>
+              <option value="IT">IT</option>
+              <option value="Finance">Finance</option>
+            </select>
+          </div>
+          <div>
+            <label for="filterRole">Role:</label>
+            <input type="text" id="filterRole" />
+          </div>
+          <div class="filter-actions">
+            <button type="submit">Apply</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </aside>
+
+      <!-- Overlay -->
+      <div id="sidebarOverlay" class="offcanvas-overlay"></div>
+
+      <div id="employeeGrid" class="employee-grid"></div>
+
+      <div id="paginationControls" class="pagination"></div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Employee Directory App. All rights reserved.</p>
+    </footer>
+
+    <div id="employeeModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modalTitle">Add Employee</h2>
+        <form id="employeeForm">
+          <input type="hidden" id="employeeId" />
+          <input type="text" id="firstName" placeholder="First Name" required />
+          <input type="text" id="lastName" placeholder="Last Name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <select id="department" required>
+            <option value="">Select Department</option>
+            <option value="HR">HR</option>
+            <option value="IT">IT</option>
+            <option value="Finance">Finance</option>
+          </select>
+          <input type="text" id="role" placeholder="Role" required />
+          <div class="form-actions">
+            <button type="button" class="cancel-btn">Cancel</button>
+            <button type="submit" id="formSubmitBtn">Add</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
